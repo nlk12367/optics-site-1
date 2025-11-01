@@ -570,8 +570,7 @@ const chapterData = {
         initLogic: () => {
             // 附錄頁面不需要 quiz 或 flashcard 邏輯
         }
-    }
-    ,
+    },
     "problems": {
         html: `
             <h1 class="chapter-title">附錄：課本習題 (Ch 3, 4, 7, 8)</h1>

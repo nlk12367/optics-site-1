@@ -572,7 +572,6 @@ const chapterData = {
         }
     }
     ,
-    ,
     "problems": {
         html: `
             <h1 class="chapter-title">附錄：課本習題 (Ch 3, 4, 7, 8)</h1>

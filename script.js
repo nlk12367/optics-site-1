@@ -571,6 +571,347 @@ const chapterData = {
             // 附錄頁面不需要 quiz 或 flashcard 邏輯
         }
     }
+    ,
+    "problems": {
+        html: `
+            <h1 class="chapter-title">附錄：課本習題 (Ch 3, 4, 7, 8)</h1>
+            
+            <section class="learning-module">
+                <h2><center>第 3 章 練習題</center></h2>
+                
+                <h3>3.1</h3>
+                <p>考慮一個在真空中傳播的平面電磁波，其表示式為（使用 SI 單位制）：<br>
+                \\(E_x = 0\\)<br>
+                \\(E_y = 4\\cos[2\\pi \\times 10^{15}(t - x/c) + \\pi/2]\\)<br>
+                \\(E_z = 0\\)</p>
+                <p>(a) 請求出此電磁波的頻率、波長、運動方向、振幅、初始相位角以及偏振方向。<br>
+                (b) 請寫出其磁通量密度的表示式。</p>
+                <img src="https://hackmd.io/_uploads/BkkGEUfybx.png" alt="Problem 3.1 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>3.25</h3>
+                <p>一個線偏振的簡諧平面波，標量振幅為10 V/m，沿著xy平面內一條與x軸成45°角的直線傳播，其振動平面是xy平面。假定k和k都是正數，請寫出描述這個波的向量表示式。設波在真空中，計算通量密度。</p>
+                <img src="https://hackmd.io/_uploads/B1QKVLfJ-x.png" alt="Problem 3.25 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>3.26</h3>
+                <p>從雷射光發射出的紫外線脈衝，每個脈衝持續2.00ns。雷射光束的直徑為2.5 mm。已知每個脈衝攜帶的能量為6.0 J。<br>
+                (a)定出每個波列在空間的長度，<br>
+                (b)求這樣的脈衝中單位體積的平均能量。</p>
+                <img src="https://hackmd.io/_uploads/r1FsNUz1Wl.png" alt="Problem 3.26 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>3.27</h3>
+                <p>一台雷射產生真空中的電磁輻射脈衝，每個脈衝持續時間為10⁻¹² 秒。若輻射通量密度為10²⁰ W/m²，求雷射光的電場的振幅。</p>
+                <img src="https://hackmd.io/_uploads/SyITNIz1We.png" alt="Problem 3.27 Solution">
+            </section>
+            
+            <section class="learning-module">
+                <h3>3.28</h3>
+                <p>一台 1.0 mW的雷射光束直徑為2mm。假設可以忽略光束的散開，計算在雷射光鄰近的能量密度。</p>
+                <img src="https://hackmd.io/_uploads/HkHmBIMJ-e.png" alt="Problem 3.28 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>3.31</h3>
+                <p>一個100W的黃光燈泡，假設可以忽略熱損耗並且準單色波長為550nm，那麼它每秒發射多少個光子？實際上在一盞普通的100W白熾燈中，只有總消耗功率的大約2.5%作為可見光發射出來。</p>
+                <img src="https://hackmd.io/_uploads/BJjRBIGyZe.png" alt="Problem 3.31 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>3.32</h3>
+                <p>一盞普通的3.0V 白熾閃光燈，電流為0.25A，將消耗的功率的大約1%轉變為光（\\(\\lambda=550nm\\)）。若光束近似為圓柱形，截面面積為10cm²，問：<br>
+                (a)每秒發射多少個光子？<br>
+                (b)光束的每一米長度上有多少個光子？<br>
+                (c)離開閃光燈時光束的通量密度是多少？</p>
+                <img src="https://hackmd.io/_uploads/Hkl-ILM1Wx.png" alt="Problem 3.32 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h2><center>第 4 章 練習題</center></h2>
+
+                <h3>4.52</h3>
+                <p>非偏振光在空氣中，與法線成 30.0°的角度，射到一片折射率為 1.60 的玻璃平滑表面上。求兩個振幅反射係數。</p>
+                <img src="https://hackmd.io/_uploads/B1pHUIz1Zg.png" alt="Problem 4.52 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>4.53</h3>
+                <p>仔細思考上一題，計算 R₁、R、T₁、T₁，以及淨透射比 T 和淨反射比 R。</p>
+                <img src="https://hackmd.io/_uploads/Sy6v88z1-l.png" alt="Problem 4.53 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>4.54</h3>
+                <p>已知 1000 W/m² 的非偏振光在空氣中射到空氣-玻璃界面，此界面 n = 3/2。若 E 場垂直於入射面的光的透射比為 0.80，那麼這時有多少光被反射？</p>
+                <img src="https://hackmd.io/_uploads/BkvtUUzybg.png" alt="Problem 4.54 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>4.55</h3>
+                <p>一束非偏振光，輻照度2000 W/m²，射到空氣-塑膠界面。已知此界面反射的光中，300 W/m²是電場E垂直於入射面偏振，200 W/m² 是電場E平行於入射面偏振。求穿過此界面的淨透射比。</p>
+                <img src="https://hackmd.io/_uploads/SJzxPIzJbg.png" alt="Problem 4.55 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>4.57</h3>
+                <p>輻照度 400 W/m² 的準單色光，沿法線方向射到人眼角膜（n = 1.376）上。若此人在水下（n = 1.33），求射入角膜的透射輻照度。</p>
+                <img src="https://hackmd.io/_uploads/HJIfw8fyWe.png" alt="Problem 4.57 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>4.58</h3>
+                <p>比較空氣-水（n = 4/3）界面和空氣-冕牌(crown)玻璃（n = 3/2）界面的振幅反射係數，二者都近乎正入射。反射輻照度與入射輻照度的比值是多少？</p>
+                <img src="https://hackmd.io/_uploads/HkcND8GkZe.png" alt="Problem 4.58 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h2><center>第 7 章 練習題</center></h2>
+
+                <h3>7.5</h3>
+                <p>(a) 真空中 1 公尺間隔內有多少個波長為 500 nm 的光波？<br>
+                (b) 如果在光路上插入 5 cm 厚的玻璃板（n = 1.5），此 1 公尺間隔內又有多少個波？<br>
+                (c) 確定兩種情況的光程差（OPD）。<br>
+                (d) 證明 \\(\\lambda/20\\) 相當於 (a) 與 (b) 的答案之差。</p>
+                <img src="https://hackmd.io/_uploads/HkvuDIMJWe.png" alt="Problem 7.5 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>7.7</h3>
+                <p>利用 (7.9)、(7.10)、(7.11) 三式證明，兩個波<br>
+                \\(E₁ = E₀₁ \\sin [\\omega t – k(x + \\Delta x)]\\)<br>
+                \\(E₂ = E₀₁ \\sin (\\omega t – kx)\\)<br>
+                其合波為<br>
+                \\(E = 2E₀₁ \\cos(k\\Delta x/2) \\sin(\\omega t – kx + k\\Delta x/2)\\)</p>
+                <img src="https://hackmd.io/_uploads/rkUguIGJ-g.png" alt="Problem 7.7 Solution 1">
+                <img src="https://hackmd.io/_uploads/ByY-dIGJWl.png" alt="Problem 7.7 Solution 2">
+            </section>
+
+            <section class="learning-module">
+                <h3>7.9</h3>
+                <p>利用複數表示法求合波 \\(E = E₁ + E₂\\)，其中<br>
+                \\(E₁ = E₀ \\cos(kx + \\omega t)\\)，\\(E₂ = -E₀ \\cos(kx – \\omega t)\\)<br>
+                請描述合波的性質。</p>
+                <img src="https://hackmd.io/_uploads/SJ5muIfkbe.png" alt="Problem 7.9 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>7.10</h3>
+                <p>函數 \\(E₁ = 3\\cos(\\alpha t)\\)、\\(E₂ = 4\\sin(\\alpha t)\\)。先證明 \\(E₂ = 4\\cos(\\alpha t – \\pi/2)\\)。再利用相量和參考題圖 P.7.10 證明<br>
+                \\(E₃ = E₁ + E₂ = 5\\cos(\\alpha t – \\theta)\\)；求 \\(\\theta\\)。當 \\(E₁ = 0\\) 或 \\(E₂ = 0\\)，\\(\\theta\\) 等於多少？\\(E₃\\) 是領先還是落後於 \\(E₁\\)？請解釋。</p>
+                <img src="https://hackmd.io/_uploads/Hk7H_8fyZx.png" alt="Problem 7.10 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h2><center>第 8 章 練習題</center></h2>
+                
+                <h3>8.1</h3>
+                <p>兩個光波 \\(E_x = E_0\\cos(kz-\\omega t)\\) 和 \\(E_y = -E_0\\cos(kz-\\omega t)\\) 在空間中重疊。請證明其合成波為線偏振波，並求出它的振幅和傾斜角 \\(\\theta\\)。</p>
+                <img src="https://hackmd.io/_uploads/B1l79IMkbl.png" alt="Problem 8.1 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.2</h3>
+                <p>兩個使用 SI 單位制的光波 \\(E_z = 4\\sin(ky-\\omega t)\\) 和 \\(E_x = 3\\sin(ky-\\omega t)\\) 在空間中重疊。請求出合成波的偏振態。</p>
+                <img src="https://hackmd.io/_uploads/Syj45UfJZe.png" alt="Problem 8.2 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.3</h3>
+                <p>兩個使用 SI 單位制的光波 \\(E_x = 8\\sin(ky-\\omega t+\\pi/2)\\) 和 \\(E_z = 8\\sin(ky-\\omega t)\\)。請問哪個波領先？領先多少？它們的合成波是何種形式？其振幅為多少？</p>
+                <img src="https://hackmd.io/_uploads/ryPL9UfyWl.png" alt="Problem 8.3 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.4</h3>
+                <p>請完整描述下面每一個波的偏振態：<br>
+                (a) \\(\\vec{E} = \\hat{i}E_0 \\cos(kz - \\omega t) - \\hat{j}E_0 \\cos(kz - \\omega t)\\)<br>
+                (b) \\(\\vec{E} = \\hat{i}E_0 \\sin 2\\pi(z/\\lambda - \\nu t) - \\hat{j}E_0 \\sin 2\\pi(z/\\lambda - \\nu t)\\)<br>
+                (c) \\(\\vec{E} = \\hat{i}E_0 \\sin(\\omega t - kz) + \\hat{j}E_0 \\sin(\\omega t - kz - \\pi/4)\\)<br>
+                (d) \\(\\vec{E} = \\hat{i}E_0 \\cos(\\omega t - kz) + \\hat{j}E_0 \\cos(\\omega t - kz + \\pi/2)\\)</p>
+                <img src="https://hackmd.io/_uploads/H17u5LG1Ze.png" alt="Problem 8.4 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.5</h3>
+                <p>考慮由表示式 \\(\\vec{E}(z,t) = [\\hat{i} \\cos \\omega t + \\hat{j} \\cos(\\omega t - \\pi/2)]E_0 \\sin kz\\) 所描述的擾動。請問這是哪一種波與其主要特徵。</p>
+                <img src="https://hackmd.io/_uploads/rJ0F98M1Zg.png" alt="Problem 8.5 Solution">
+            </section>
+            
+            <section class="learning-module">
+                <h3>8.7</h3>
+                <p>S 態光波角頻率為 \\(\\omega\\)，振幅 \\(E_0\\)，沿 x 軸傳播，振動平面與 xy 平面成 25°角，當 \\(t = 0, x = 0\\) 時電場為零。寫出該波的表示式。</p>
+                <img src="https://hackmd.io/_uploads/ryjaq8M1Zg.png" alt="Problem 8.7 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.8</h3>
+                <p>P 態光波角頻率為 \\(\\omega\\)，振幅 \\(E_0\\)，在 xy 平面上沿 x 軸成 45°的方向傳播，振動面在 xy 平面上，當 \\(t = 0, y = 0, x = 0\\) 時電場為零。寫出該波的表示式。</p>
+                <img src="https://hackmd.io/_uploads/HJr1iIMyZe.png" alt="Problem 8.8 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.9</h3>
+                <p>R 態光波頻率為 \\(\\omega\\)，沿正 x 方向傳播。當 \\(t = 0, x = 0\\) 時 E 場指向負 z 軸。寫出表示式。</p>
+                <img src="https://hackmd.io/_uploads/rJTeiIMJbg.png" alt="Problem 8.9 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.10</h3>
+                <p>一束電場沿垂直方向的線偏振光正入射於理想線偏振片上，偏振片透光軸亦為垂直。若入射光輻照度為 200 W/m²，透過光的輻照度是多少？</p>
+                <img src="https://hackmd.io/_uploads/H1Mmo8Gk-g.png" alt="Problem 8.10 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.11</h3>
+                <p>一個普通鎢絲燈泡射到理想線偏振片的光強為 300 W/m²，問射出的輻照通量密度是多少？</p>
+                <img src="https://hackmd.io/_uploads/rk3wiIG1bg.png" alt="Problem 8.11 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.20</h3>
+                <p>輻照度為 1 的自然光正入射到 HN-32 偏振片上：<br>
+                (a) 出射光是多少？<br>
+                (b) 若又放一片相同偏振片，兩片透光軸成 45°，有多少光能透過？</p>
+                <img src="https://hackmd.io/_uploads/SJlVYsIzkbx.png" alt="Problem 8.20 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.21</h3>
+                <p>輻照度為 Iᵢ 的自然光正入射三片理想線偏振片，且各偏振片透光軸相互平行，每片主透光率 64%、消光比高。請證明透過量約為 13% I₀。</p>
+                <img src="https://hackmd.io/_uploads/H1U728fy-e.png" alt="Problem 8.21 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.22</h3>
+                <p>在 8.10 節中我們得知，糖和胰島素等物質具旋光性，其偏振面旋轉角正比於路程及濃度。若裝有糖溶液的玻璃容器擺在一對交叉的 HN-50 線偏振片間，入射在第一偏振片上的自然光有 50% 能通過第二偏振片。問容器中的糖溶液使光轉動了多少角度？</p>
+                <img src="https://hackmd.io/_uploads/HJ_LnUfy-x.png" alt="Problem 8.22 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.27</h3>
+                <p>設有兩個完全相同理想線偏振器、一個自然光源，兩偏振器串聯，透光軸分別在 0°、50°。現插入第三偏振片於中間，透光軸在 25°。若入射光為 1000 W/m²，則插入與未插入中間偏振片時各有多少光能透過？</p>
+                <img src="https://hackmd.io/_uploads/SyX_3Iz1Zl.png" alt="Problem 8.27 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.28</h3>
+                <p>有 200 W/m² 無規偏振光入射於一串理想線偏振器，第一偏振器透光軸垂直、第二取向 30°、第三 60°、第四 90°。問射出光有多少？</p>
+                <img src="https://hackmd.io/_uploads/BJAFhLfJbl.png" alt="Problem 8.28 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.38</h3>
+                <p>請畫出石英的渥拉斯頓棱鏡，標示所有相關的光線和偏振態。</p>
+                <p><em>請參考課本內容</em></p>
+            </section>
+
+            <section class="learning-module">
+                <h3>8.39</h3>
+                <p>渥拉斯頓棱鏡由兩個 45° 石英棱鏡組成，若 \\(\\lambda=589.3 nm\\)，求出射光線分離的角度。（提示：與方解石渥斯頓棱鏡比較，e 光和 o 光位置交換）</p>
+                <img src="https://hackmd.io/_uploads/Bydy6LzJWl.png" alt="Problem 8.39 Solution 1">
+                <img src="https://hackmd.io/_uploads/SJdZ6UMJ-l.png" alt="Problem 8.39 Solution 2">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.43</h3>
+                <p>浸於水（n = 1.33）的玻璃片（ng = 1.65），對光反射的布魯斯特角是多少？</p>
+                <img src="https://hackmd.io/_uploads/S1MmTIGyZg.png" alt="Problem 8.43 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.44</h3>
+                <p>某透明材料於空氣中的臨界角為 41.0°，求其偏振角。</p>
+                <img src="https://hackmd.io/_uploads/Bybr6UzJ-g.png" alt="Problem 8.44 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.45</h3>
+                <p>一束光從某未知液體表面反射，用一片線偏振片考查反射光。發現偏振片中心軸（垂直於其平面）與垂直方向成 54.30°時，反射光全部能通過，且透光軸平行於界面。由此計算液體折射率。</p>
+                <img src="https://hackmd.io/_uploads/HkSIp8Gkbx.png" alt="Problem 8.45 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.46</h3>
+                <p>發現從浸入酒精（ne=1.36）裡的玻璃板（ng=1.65）反射的光是完全線偏振的。在何種角度下這束偏振光可透射過玻璃板？</p>
+                <img src="https://hackmd.io/_uploads/rkoDTLzyZl.png" alt="Problem 8.46 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.47</h3>
+                <p>一束自然光以40°入射於空氣-玻璃界面（n=1.5），計算反射光的偏振度。</p>
+                <img src="https://hackmd.io/_uploads/By0u6IzyZx.png" alt="Problem 8.47 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.56</h3>
+                <p>假設你有一線偏振器、一四分之一波片及自然光源，如何分辨這兩器件？</p>
+                <img src="https://hackmd.io/_uploads/ryi2TLzkZl.png" alt="Problem 8.56 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.57</h3>
+                <p>線偏振光在水平軸成 130°振動（在第二、第四象限），通過一個 \\(\\pi/2\\) 波片，波片快軸垂直。描述出射光偏振態。若入射光電場與慢軸平行，偏振方向該怎麼旋轉？</p>
+                <img src="https://hackmd.io/_uploads/rJDuCIfy-x.png" alt="Problem 8.57 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.58</h3>
+                <p>右旋圓偏振光通過一四分之一波片，快軸垂直。描述出射光的偏振態。該偏振狀態是否在圖 8.42 對應圓偏移一個象限？</p>
+                <img src="https://hackmd.io/_uploads/r1pKALzyZx.png" alt="Problem 8.58 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.59</h3>
+                <p>右旋圓偏振光通過一四分之一波片，快軸水平。說明出射光是在第一、三象限 45°方向的線偏振光原因。</p>
+                <img src="https://hackmd.io/_uploads/rynoALMk-g.png" alt="Problem 8.59 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.60</h3>
+                <p>在第二、第四象限、振動角 135°的線偏振光通過一半波片，快軸垂直。說明為什麼出射是第一、三象限的線偏振。</p>
+                <img src="https://hackmd.io/_uploads/HkE6RUf1Wg.png" alt="Problem 8.60 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.61</h3>
+                <p>右旋圓偏振光通過一半波片，快軸垂直。描述出射光的偏振態。</p>
+                <img src="https://hackmd.io/_uploads/rJnCRLGkZg.png" alt="Problem 8.61 Solution">
+            </section>
+            
+            <section class="learning-module">
+                <h3>8.65</h3>
+                <p>波長 590 nm 左旋圓偏振光在 z 方向垂直通過石英片，變成右旋圓偏振。石英片經切割拋光，光軸 y 方向（nₒ = 1.5443, nₑ = 1.5534），石英片面為 xy 平面。(a)快軸何方向？(b)石英片最小厚度需多少？</p>
+                <img src="https://hackmd.io/_uploads/SkIZ1vMy-g.png" alt="Problem 8.65 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.66</h3>
+                <p>L (左旋)偏振態光通過快軸於水平方向的八分之一波片，出射光偏振態為何？</p>
+                <img src="https://hackmd.io/_uploads/Hk5V1wG1-e.png" alt="Problem 8.66 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.75</h3>
+                <p>任意一個與水平方向成 \\(\\theta\\) 角的線偏振態，其瓊斯向量為 \\(\\begin{bmatrix} \\cos\\theta \\\\ \\sin\\theta \\end{bmatrix}\\)。<br>
+                證明這個矩陣與表 8.5 中+45°的 \\(\\mathscr{P}\\) 態一致。</p>
+                <img src="https://hackmd.io/_uploads/B1HokwMyWl.png" alt="Problem 8.75 Solution">
+            </section>
+
+            <section class="learning-module">
+                <h3>8.76</h3>
+                <p>寫出一個代表與 \\(\\tilde{E}_1 = \\begin{bmatrix} 1 \\\\ -2i \\end{bmatrix}\\) 正交的偏振態的瓊斯向量 \\(\\tilde{E}_2\\)。簡單描述這兩個偏振態。</p>
+                <img src="https://hackmd.io/_uploads/BkL2JwM1Zx.png" alt="Problem 8.76 Solution">
+            </section>
+        `,
+        // --- 習題頁面沒有測驗或字卡 ---
+        initLogic: () => {
+            // 課本習題頁面不需要 quiz 或 flashcard 邏輯
+        }
+    }
 };
 
 /* --- 
